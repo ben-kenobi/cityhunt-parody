@@ -333,11 +333,11 @@
 		18BE88A41DCC3DD4000C4AC4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		18BE88A61DCC3DEC000C4AC4 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
 		18BE88A81DCC3DFA000C4AC4 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
-		18ECD6931BF600D0008F26B8 /* day35-yfcityhunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "day35-yfcityhunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18ECD6931BF600D0008F26B8 /* cityhunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cityhunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18ECD6971BF600D0008F26B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18ECD6981BF600D0008F26B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18ECD6A31BF600D0008F26B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		18ECD6AC1BF600D0008F26B8 /* day35-yfcityhuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "day35-yfcityhuntTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18ECD6AC1BF600D0008F26B8 /* cityhunt.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cityhunt.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18ECD6B11BF600D0008F26B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18ECD6B21BF600D0008F26B8 /* day35_yfcityhuntTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = day35_yfcityhuntTests.m; sourceTree = "<group>"; };
 		18ECD6BE1BF601B8008F26B8 /* IUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUtil.h; sourceTree = "<group>"; };
@@ -900,8 +900,8 @@
 		18ECD6941BF600D0008F26B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18ECD6931BF600D0008F26B8 /* day35-yfcityhunt.app */,
-				18ECD6AC1BF600D0008F26B8 /* day35-yfcityhuntTests.xctest */,
+				18ECD6931BF600D0008F26B8 /* cityhunt.app */,
+				18ECD6AC1BF600D0008F26B8 /* cityhunt.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1475,7 +1475,7 @@
 			);
 			name = "day35-yfcityhunt";
 			productName = "day35-yfcityhunt";
-			productReference = 18ECD6931BF600D0008F26B8 /* day35-yfcityhunt.app */;
+			productReference = 18ECD6931BF600D0008F26B8 /* cityhunt.app */;
 			productType = "com.apple.product-type.application";
 		};
 		18ECD6AB1BF600D0008F26B8 /* day35-yfcityhuntTests */ = {
@@ -1493,7 +1493,7 @@
 			);
 			name = "day35-yfcityhuntTests";
 			productName = "day35-yfcityhuntTests";
-			productReference = 18ECD6AC1BF600D0008F26B8 /* day35-yfcityhuntTests.xctest */;
+			productReference = 18ECD6AC1BF600D0008F26B8 /* cityhunt.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1860,7 +1860,7 @@
 				INFOPLIST_FILE = "day35-yfcityhunt/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = cityhunt;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1881,7 +1881,7 @@
 				INFOPLIST_FILE = "day35-yfcityhunt/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = cityhunt;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -1901,8 +1901,8 @@
 				);
 				INFOPLIST_FILE = "day35-yfcityhuntTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day35-yfcityhunt.app/day35-yfcityhunt";
+				PRODUCT_NAME = cityhunt;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cityhunt.app/cityhunt";
 			};
 			name = Debug;
 		};
@@ -1917,8 +1917,8 @@
 				);
 				INFOPLIST_FILE = "day35-yfcityhuntTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day35-yfcityhunt.app/day35-yfcityhunt";
+				PRODUCT_NAME = cityhunt;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cityhunt.app/cityhunt";
 			};
 			name = Release;
 		};

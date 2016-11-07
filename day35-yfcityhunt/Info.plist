@@ -36,43 +36,46 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-    
-    
-    <key>NSBluetoothPeripheralUsageDescription</key>
-    <string>allow to use it</string>
-    <key>NSCalendarsUsageDescription</key>
-    <string>allow to use it</string>
-    <key>NSCameraUsageDescription</key>
-    <string>allow to use it</string>
-    <key>NSContactsUsageDescription</key>
-    <string>allow to use it</string>
-    <key>NSHealthShareUsageDescription</key>
-    <string>allow to use it</string>
-    <key>NSHealthUpdateUsageDescription</key>
-    <string>allow to use it</string>
-    <key>NSHomeKitUsageDescription</key>
-    <string>allow to use it</string>
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>allow to use it</string>
-    <key>NSLocationUsageDescription</key>
-    <string>allow to use it</string>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>allow to use it</string>
-    <key>NSAppleMusicUsageDescription</key>
-    <string>allow to use it</string>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>allow to use it</string>
-    <key>NSMotionUsageDescription</key>
-    <string>allow to use it</string>
-    <key>kTCCServiceMediaLibrary</key>
-    <string>allow to use it</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>allow to use it</string>
-    <key>NSRemindersUsageDescription</key>
-    <string>allow to use it</string>
-    <key>NSSiriUsageDescription</key>
-    <string>allow to use it</string>
-    <key>NSSpeechRecognitionUsageDescription</key>
-    <string>allow to use it</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>allow to use it</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>allow to use it</string>
+	<key>NSCameraUsageDescription</key>
+	<string>allow to use it</string>
+	<key>NSContactsUsageDescription</key>
+	<string>allow to use it</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>allow to use it</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>allow to use it</string>
+	<key>NSHomeKitUsageDescription</key>
+	<string>allow to use it</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>allow to use it</string>
+	<key>NSLocationUsageDescription</key>
+	<string>allow to use it</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>allow to use it</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>allow to use it</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>allow to use it</string>
+	<key>NSMotionUsageDescription</key>
+	<string>allow to use it</string>
+	<key>kTCCServiceMediaLibrary</key>
+	<string>allow to use it</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>allow to use it</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>allow to use it</string>
+	<key>NSSiriUsageDescription</key>
+	<string>allow to use it</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>allow to use it</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
